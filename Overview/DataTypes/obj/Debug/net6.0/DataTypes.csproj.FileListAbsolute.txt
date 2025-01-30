@@ -12,3 +12,4 @@ C:\Users\USER\Documents\Ndu Emmanuel starter file\Overview\DataTypes\obj\Debug\n
 C:\Users\USER\Documents\Ndu Emmanuel starter file\Overview\DataTypes\obj\Debug\net6.0\DataTypes.pdb
 C:\Users\USER\Documents\Ndu Emmanuel starter file\Overview\DataTypes\obj\Debug\net6.0\DataTypes.genruntimeconfig.cache
 C:\Users\USER\Documents\Ndu Emmanuel starter file\Overview\DataTypes\obj\Debug\net6.0\ref\DataTypes.dll
+C:\Users\USER\Documents\Ndu Emmanuel starter file\Overview\DataTypes\obj\Debug\net6.0\DataTypes.sourcelink.json
