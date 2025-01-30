@@ -64,3 +64,4 @@ struct s {
     public int a;
     public bool b;
 }
+
