@@ -65,3 +65,4 @@ struct s {
     public bool b;
 }
 
+
