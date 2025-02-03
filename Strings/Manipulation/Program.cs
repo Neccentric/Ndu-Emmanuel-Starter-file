@@ -45,3 +45,8 @@ int result = String.Compare(str2, "This is a string");
 Console.WriteLine($"{result}");
 
 // TODO: Replacing content
+string outstr1 = str1.Replace("fox", "cat");
+Console.WriteLine($"{outstr1}");
+
+
+//example
