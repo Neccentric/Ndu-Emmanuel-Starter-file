@@ -13,13 +13,15 @@ decimal val2 = 1234.5678m;
 // E (Exponential), D (Decimal), P (Percent), X (Hexadecimal),
 // C (Currency in local format)
 
+Console.WriteLine($"{val1:D}, {val1:N}, {val1:F}, {val1:G}");
+Console.WriteLine($"{val2:E}, {val2:N}, {val2:F}, {val2:G}");
 
 // TODO: Add a number after the format to specify precision
-
+Console.WriteLine($"{val1:D6}, {val1:N2}, {val1:F1}, {val1:G3}");
 
 // TODO: Formatting with alignment and spacing
-// Console.WriteLine("Sales by Quarter:");
-// Console.WriteLine($"{quarters[0]} {quarters[1]} {quarters[2]} {quarters[3]}");
-// Console.WriteLine($"{sales[0]} {sales[1]} {sales[2]} {sales[3]}");
-// Console.WriteLine("International Sales:");
-// Console.WriteLine($"{intlMixPct[0]} {intlMixPct[1]} {intlMixPct[2]} {intlMixPct[3]}");
+Console.WriteLine("Sales by Quarter:");
+Console.WriteLine($"{quarters[0], 10} {quarters[1], 10} {quarters[2], 10} {quarters[3], 10}");
+Console.WriteLine($"{sales[0], 10:C0} {sales[1], 10:C0} {sales[2], 10:C0} {sales[3], 10:C0}");
+Console.WriteLine("International Sales:");
+Console.WriteLine($"{intlMixPct[0], 10:P0} {intlMixPct[1], 10:P1} {intlMixPct[2], 10:P2} {intlMixPct[3], 10:P3}");
