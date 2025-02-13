@@ -30,17 +30,8 @@ foreach (string dir in thedirs) {
 }
 Console.WriteLine("---------------");
 
-Console.WriteLine("Just files:");
-List<string> thefiles = new List<string>(Directory.EnumerateFiles(curpath));
-foreach (string dir in thefiles) {
-    Console.WriteLine(dir);
-}
-Console.WriteLine("---------------");
+// Console.WriteLine("Just files:");
 
-Console.WriteLine("All directory contents:");
-List<string> thecontents = new
-List<string>(Directory.EnumerateFileSystemEntries(curpath));
-foreach (string dir in thecontents) {
-    Console.WriteLine(dir);
-}
+// Console.WriteLine("---------------");
 
+// Console.WriteLine("All directory contents:");
